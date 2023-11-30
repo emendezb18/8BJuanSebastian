@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(14, 100, 224);
+    margin: 3%;
+}
+subtitulo2
+
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+p{
+    font-size: 25px;
+    color: white;
+}
+h1{
+    color: white;
+}
+.imagen{
+    border-style: double;
+    color: white;
+    border-width: 10px;
+}
+.imagen1{
+    border-style: double;
+    color: white;
+    border-width: 10px;
+}
+.imagen2{
+    border-style: double;
+    color: white;
+    border-width: 10px;
+}
+h2{
+    color: white;
+    
+}

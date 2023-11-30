@@ -1,0 +1,114 @@
+body {
+    font-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(225, 214, 214);
+    color: whitesmoke;
+    margin: 0;
+}
+
+.topofpage {
+    z-index: 1000;
+    background-color: rgb(19, 159, 224);
+    box-shadow: 0px 5px rgb(19, 100, 224) !important;
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0 !important;
+    left: 0;
+    overflow:visible;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    margin:0%
+}
+
+.title {
+    color: whitesmoke;
+    margin: 0;
+    text-decoration: none;
+    font-size:200%;
+    padding: 2.45% 25px;
+    margin: 0px;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5% 25px;
+    box-shadow: -0px -5px rgba(19, 159, 224), 0px 4px rgba(19,159,224) !important;
+    transition-duration: 125ms;
+}
+.links a:hover {
+    background-color: rgb(19, 100, 224);
+    transition-duration: 125ms;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.head{
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(19, 159, 224);
+    border-radius: 5px;
+    margin-right: 80%;
+    font-size:medium;
+}
+
+.left {
+    padding: 20px;
+    background-color: rgb(19, 159, 224);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-right: 3%;
+    font-size: 25px;
+}
+
+.right {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(19, 159, 224);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.right image {
+    float: right;
+    display: absolute;
+    margin-top: 25%;
+    margin-right: 5%;
+    border-radius: 15px;
+}
+
+.left image {
+    float: left;
+    display: absolute;
+    margin-top: 25%;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+
+.text {
+    display: flex;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
